@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.main_header{
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    background-color: #F5F5F5;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_header .main_logo{
+    font-size: 4.4rem;
+    font-family: 'Lobster', cursive;
+    color: #333;
+}
+
+.main_header div{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_bar{
+    width: 25rem;
+    height: 2.5rem;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: #cccccc3a;
+    font-family: 'Lobster', cursive;
+    padding-left: 10px;
+}
+.search_btn{
+    height: 2.5rem;
+    width: 4rem;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+}
+
+.main_navbar{
+    margin-top: 2rem;
+}
+.main_navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    font-size: 1.5rem;
+}
+.main_navbar ul li{
+    border: #333;
+    background-color: #333;
+    color: #fff;
+    width: 6.5rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.body_container{
+    width: 110rem;
+    min-height: 100vh;
+    padding-top: 3rem;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.body_container img{
+    width: 20rem;
+    height: auto;
+    margin: 1rem;
+}
+
+
+
+
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 14px;
+    width: 200px;
+}
+
+.custom-select option {
+    padding: 8px 16px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.custom-select option:last-child {
+    border-bottom: none;
+}
+
+.body_container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 2.4rem;
+    font-family: 'Lobster', cursive;
+    color: #333;
+}
